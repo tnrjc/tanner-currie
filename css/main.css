@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Heebo&display=swap');
+
+
+
+body {
+    margin:0;
+}
+
+header.flex-container {
+   color: rgb(0, 0, 0);
+}
+
+h1,h2,h3,h4,h5,h6 {
+text-transform: uppercase;
+}
+
+nav > ul > li {
+    display: inline;
+    margin-right:25px;
+} 
+
+article {
+    width:600px;
+}
+
+article > header > h1 {
+    font-size:1.8em;
+}
+
+article > header + h2 {
+    margin-top:-25px;
+}L
+
+article > header + p {
+    margin-top:60px;
+} 
+
+
+.headline-copy {
+    font-family: 'Heebo', sans-serif;
+}
+
+
+.body-copy{
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+    float: both;
+}
+
+
+code {
+    background-color:rgb(255, 255, 255);
+    color:rgb(47, 102, 255);
+    padding:15px;
+    line-height: 42px;
+}
+
+
+section {
+    margin:50px 50px;
+}
+
+.section-title {
+    display:block;
+}
+
+
+.flex-container {
+    display:flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+}
+
+.flex-item {
+    margin-right:auto;
+}
+
+.flex-break
+{
+    flex-basis: 100%;
+    height: 0;
+}
+
+.color-item {
+    list-style-type: none;
+    display:inline-block;
+    width:200px;
+    height:200px;
+    margin:10px;
+    border:1px solid black;
+}
+
+
+.logo-box{
+    position:relative;
+    width:300px;
+    height:50px;
+    min-height: 100%;
+    padding:10px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+
+}
+.logo-box:after {
+    position: absolute;
+    left: 281px;
+    top: 0px;
+    border-bottom: 70px solid white;
+    border-left: 39px solid transparent;
+}
+
+figure {
+    margin:0;
+    
+}
+figure > img.feature {
+   
+    margin-bottom: -5px;
+}
+
+
+
+
+.black {
+    background: #2a2627;
+}
+
+.cream {
+    background: #ebe7e5;
+}
+
+.grey {
+    background: #3a3738;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section {
+
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    border: 1px solid black;
+}
+
+.section-item {
+    margin: auto;
+}
+
+nav > ul > li {
+    display: inline;
+    margin-right:30px;
+} 
+ul {
+    list-style-type: none;
+}
+
+ul > li {
+    display:inline;
+    margin:10px;
+
+}
+
+h1 {
+    font-family: 'Heebo', sans-serif;
+    
+}
+
+h2 {
+    font-family: 'Heebo', sans-serif;
+}
+
+
+body{
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+}
+
+.flex-item {
+    margin-right:auto;
+}
+
+.logo-box{
+    position:relative;
+    width:950px;
+    height:0px;
+    padding:10px;
+ 
+}
+
+.logo-box:after {
+    position: absolute;
+    left: 281px;
+    top: 0px;
+    border-bottom: 70px solid white;
+    border-left: 1000px solid transparent;
+}
+
+
+.section-title {
+    font-size:2em;
+    width:100%;
+    display:block;
+}
+
+
+
+
+.headline-copy {
+    font-family: 'Heebo', sans-serif;
+
+}
